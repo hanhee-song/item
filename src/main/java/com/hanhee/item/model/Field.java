@@ -1,4 +1,6 @@
-package com.hanhee.inventory.model;
+package com.hanhee.item.model;
+
+import java.util.Date;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -10,6 +12,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class InventoryItem {
-  
+public class Field {
+  private int id;
+  private String name;
+  private String type;
+  private int sortOrder;
 }

@@ -1,13 +1,13 @@
-package com.hanhee.inventory;
+package com.hanhee.item;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InventoryApplication {
+public class ItemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InventoryApplication.class, args);
+		SpringApplication.run(ItemApplication.class, args);
 		
 	}
 
