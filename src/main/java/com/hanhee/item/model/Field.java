@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Field {
-  private int id;
+  private String id;
   private String name;
   private String type;
   private int sortOrder;

@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ItemPrototype {
-  private int id;
+  private String id;
   private String name;
   private String description;
   private String createdBy;
