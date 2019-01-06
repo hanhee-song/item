@@ -13,12 +13,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ItemPrototype {
+public class SortRule {
   private String id;
-  private String name;
-  private String description;
-  private String createdBy;
-  private Date createdDate;
-  private Date lastModifiedDate;
-  private HashMap<String, Field> fields;
+  private String field;
+  private String order; // asce or desc
+  private String isActive;
 }

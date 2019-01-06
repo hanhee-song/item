@@ -16,5 +16,7 @@ public class Field {
   private String id;
   private String name;
   private String type;
-  private int sortOrder;
+  private String value;
+  private String sortOrder;
+  private String isActive;
 }
